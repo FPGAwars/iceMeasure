@@ -11,7 +11,18 @@ Icestudio collection for measuring cycles and time in your circuits, very easily
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
+## Blocks
+* *Cycles*
+  * Measure-8bits
 
+## Examples
+* *Cycles*
+  * 01-combinational-test
+  * 02-One-D-flip-flop-test
+  * 03-Two-D-flip-flop-test
+  * 04-Four-circuits-test
+  * 05-counter-test
+  * 06-count-machine-test
 
 
 ## Authors
