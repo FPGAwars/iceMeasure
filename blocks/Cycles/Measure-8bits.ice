@@ -248,6 +248,26 @@
           }
         },
         {
+          "id": "ec360f26-97f6-467c-bb26-6c9f40380f71",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "exit",
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": -160,
+            "y": 728
+          }
+        },
+        {
           "id": "dcf34c1b-6389-4c30-8364-aa0727819492",
           "type": "basic.outputLabel",
           "data": {
@@ -312,15 +332,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "counter_on",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true
+            "name": "counter_on"
           },
           "position": {
             "x": -280,
@@ -457,20 +469,6 @@
           }
         },
         {
-          "id": "96a5c786-3a94-4871-a017-e50c7860e1be",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "exit_ok",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
-          },
-          "position": {
-            "x": 80,
-            "y": 1064
-          }
-        },
-        {
           "id": "57d2d734-24bd-4b23-93e0-36a8c64ea931",
           "type": "basic.inputLabel",
           "data": {
@@ -492,6 +490,39 @@
           }
         },
         {
+          "id": "96a5c786-3a94-4871-a017-e50c7860e1be",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "exit_ok",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": -8,
+            "y": 1120
+          }
+        },
+        {
+          "id": "9f7ce633-ab3a-45f3-8ad4-54ae782dfec0",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "is_comb",
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": -8,
+            "y": 1184
+          }
+        },
+        {
           "id": "161c9b41-7830-41b9-90cf-717c40b0726a",
           "type": "basic.outputLabel",
           "data": {
@@ -500,7 +531,73 @@
           },
           "position": {
             "x": 136,
-            "y": 1176
+            "y": 1296
+          }
+        },
+        {
+          "id": "d9c166bf-a929-4b6f-b727-424299a13e47",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "entry",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": -376,
+            "y": 1312
+          }
+        },
+        {
+          "id": "00d9c7b1-ed2a-4c36-97db-e21da8757786",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "is_comb",
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": -72,
+            "y": 1328
+          }
+        },
+        {
+          "id": "8dfe08a8-aeae-45f9-a91a-736e77b5d94f",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "exit",
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": -376,
+            "y": 1384
+          }
+        },
+        {
+          "id": "7fe7ad17-850a-4851-81e3-10667ae44b4a",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "exit_ok",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 136,
+            "y": 1392
           }
         },
         {
@@ -519,22 +616,28 @@
             "virtual": true
           },
           "position": {
-            "x": 440,
-            "y": 1256
+            "x": 632,
+            "y": 1424
           }
         },
         {
-          "id": "7fe7ad17-850a-4851-81e3-10667ae44b4a",
+          "id": "d455ea9f-8c11-4d23-83d0-d975f174c6e6",
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "exit_ok",
-            "oldBlockColor": "fuchsia",
+            "name": "is_comb",
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
             "virtual": true
           },
           "position": {
-            "x": 136,
-            "y": 1272
+            "x": 336,
+            "y": 1480
           }
         },
         {
@@ -592,7 +695,7 @@
           "type": "1c7dae7144d376f2ee4896fcc502a29110e2db37",
           "position": {
             "x": 288,
-            "y": 1256
+            "y": 1376
           },
           "size": {
             "width": 96,
@@ -727,12 +830,112 @@
             "readonly": true
           },
           "position": {
-            "x": 560,
-            "y": 1240
+            "x": 344,
+            "y": 1248
           },
           "size": {
             "width": 392,
             "height": 88
+          }
+        },
+        {
+          "id": "b1c5f982-3ccd-4cbc-aaae-819501460db1",
+          "type": "b2090f68ef94fd3c5c0eaea93eb6ba7e80aff0b6",
+          "position": {
+            "x": -224,
+            "y": 1328
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "308d8de6-c835-49b2-af4b-7c2a03970130",
+          "type": "basic.info",
+          "data": {
+            "info": "Special case: entry and exit  \ntics arrives at the same time:  \nit means it is measuring a  \ncombinational circuit",
+            "readonly": true
+          },
+          "position": {
+            "x": -352,
+            "y": 1208
+          },
+          "size": {
+            "width": 240,
+            "height": 88
+          }
+        },
+        {
+          "id": "9093291f-d010-4be1-8f5c-31992bb3bdb6",
+          "type": "81613874c6152f06c06ed7014bf4235900cfcc30",
+          "position": {
+            "x": 120,
+            "y": 1136
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "207a96be-8f4c-4a34-8110-dadfa08b6cb4",
+          "type": "basic.info",
+          "data": {
+            "info": "Determina when the counter should be  \nstopped (or not started)",
+            "readonly": true
+          },
+          "position": {
+            "x": -48,
+            "y": 1064
+          },
+          "size": {
+            "width": 296,
+            "height": 56
+          }
+        },
+        {
+          "id": "f50ad8cf-df83-49f7-8a67-39b7af69048b",
+          "type": "basic.info",
+          "data": {
+            "info": "Combinational circuit:  \ncounter not started",
+            "readonly": true
+          },
+          "position": {
+            "x": 8,
+            "y": 1248
+          },
+          "size": {
+            "width": 184,
+            "height": 56
+          }
+        },
+        {
+          "id": "00e9d08d-79e4-43af-b7b8-010549a60823",
+          "type": "81613874c6152f06c06ed7014bf4235900cfcc30",
+          "position": {
+            "x": 480,
+            "y": 1424
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "93c395df-bb37-4b35-a987-a71ef098eca0",
+          "type": "basic.info",
+          "data": {
+            "info": "If the circuit measured is  \ncombinational, just print  \nthe counter (which is 0)",
+            "readonly": true
+          },
+          "position": {
+            "x": 320,
+            "y": 1536
+          },
+          "size": {
+            "width": 216,
+            "height": 64
           }
         }
       ],
@@ -765,17 +968,6 @@
               "y": 1056
             }
           ]
-        },
-        {
-          "source": {
-            "block": "96a5c786-3a94-4871-a017-e50c7860e1be",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "398a27f8-3a32-432d-9782-01566e0b664b",
-            "port": "86eb8c81-17fc-4371-bd21-51f429191f3c"
-          },
-          "vertices": []
         },
         {
           "source": {
@@ -906,16 +1098,6 @@
         },
         {
           "source": {
-            "block": "326090f9-09a4-4caf-92ec-d96bee0c763f",
-            "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
-          },
-          "target": {
-            "block": "782482e1-207b-4c8d-8bb7-7b1b82e168cf",
-            "port": "inlabel"
-          }
-        },
-        {
-          "source": {
             "block": "065b6917-d6f2-4732-9111-1e9890416c81",
             "port": "outlabel"
           },
@@ -1008,6 +1190,86 @@
           "target": {
             "block": "326090f9-09a4-4caf-92ec-d96bee0c763f",
             "port": "bf2f0c53-2d04-4cba-aa70-2df85502d24f"
+          }
+        },
+        {
+          "source": {
+            "block": "78d0bbcc-7999-4e68-85f1-9ea4e0ed8505",
+            "port": "out"
+          },
+          "target": {
+            "block": "ec360f26-97f6-467c-bb26-6c9f40380f71",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "d9c166bf-a929-4b6f-b727-424299a13e47",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "b1c5f982-3ccd-4cbc-aaae-819501460db1",
+            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+          }
+        },
+        {
+          "source": {
+            "block": "8dfe08a8-aeae-45f9-a91a-736e77b5d94f",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "b1c5f982-3ccd-4cbc-aaae-819501460db1",
+            "port": "97b51945-d716-4b6c-9db9-970d08541249"
+          }
+        },
+        {
+          "source": {
+            "block": "b1c5f982-3ccd-4cbc-aaae-819501460db1",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "00d9c7b1-ed2a-4c36-97db-e21da8757786",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "96a5c786-3a94-4871-a017-e50c7860e1be",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "9093291f-d010-4be1-8f5c-31992bb3bdb6",
+            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+          }
+        },
+        {
+          "source": {
+            "block": "9f7ce633-ab3a-45f3-8ad4-54ae782dfec0",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "9093291f-d010-4be1-8f5c-31992bb3bdb6",
+            "port": "97b51945-d716-4b6c-9db9-970d08541249"
+          }
+        },
+        {
+          "source": {
+            "block": "00e9d08d-79e4-43af-b7b8-010549a60823",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "782482e1-207b-4c8d-8bb7-7b1b82e168cf",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "d455ea9f-8c11-4d23-83d0-d975f174c6e6",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "00e9d08d-79e4-43af-b7b8-010549a60823",
+            "port": "97b51945-d716-4b6c-9db9-970d08541249"
           }
         },
         {
@@ -1122,6 +1384,26 @@
           },
           "target": {
             "block": "2449467d-224e-4bff-98f2-a55dd30aeeea",
+            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+          }
+        },
+        {
+          "source": {
+            "block": "9093291f-d010-4be1-8f5c-31992bb3bdb6",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "398a27f8-3a32-432d-9782-01566e0b664b",
+            "port": "86eb8c81-17fc-4371-bd21-51f429191f3c"
+          }
+        },
+        {
+          "source": {
+            "block": "326090f9-09a4-4caf-92ec-d96bee0c763f",
+            "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
+          },
+          "target": {
+            "block": "00e9d08d-79e4-43af-b7b8-010549a60823",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
           }
         }
